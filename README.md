@@ -9,7 +9,8 @@ Requirements
 * Python 3
 * lxml
 * requests
-* matplotlib
+* matplotlib (charts)
+* Bottle (API)
 
 Linux users: If charts are not being generated, try using the Matplotlib package from your distribution's repositories if available instead of installing via `pip`.
 
