@@ -18,6 +18,8 @@ for row in c.fetchall():
     names.append(row[0])
     count.append(row[1])
 
+conn.close()
+
 x = np.arange(len(names))
 
 plt.gca().yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
