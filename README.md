@@ -35,7 +35,7 @@ The default app to track is Messenger.
 
 Creates a bar graph of apps that have reached position #1 during the data collection period against the number of occurrences per app.
 
-## serve.py
+### serve.py
 
 Bottle-based REST API to get data from database.
 
