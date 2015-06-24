@@ -39,10 +39,10 @@ Creates a bar graph of apps that have reached position #1 during the data collec
 
 Bottle-based REST API to get data from database.
 
-Routes:
-
-* `/top` [GET]: Returns apps that have reached position 1, and how many times they did
-* `/app/<id>` [GET]: Return an app's leaderboard performance over time. `<id>` should be the app's package name, e.g. `com.facebook.orca`
+| Route            | Method        | Description |
+|------------------|---------------|-------------|
+| `/top`           | GET           | Returns apps that have reached position 1, and how many times they did |
+| `/app/<id>`      | GET           | Return an app's leaderboard performance over time. `<id>` should be the app's package name, e.g. `com.facebook.orca` |
 
 Web interface
 -------------
